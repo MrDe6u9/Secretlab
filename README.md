@@ -1,5 +1,5 @@
 
-# LocalStorage Secret Lab
+# Secret Lab
 
 ## Objective
 
@@ -22,5 +22,3 @@ Retrieve the hidden flag without editing the source code.
 7. Inspect the `session` key.
 8. Read the JSON object to find the flag.
 
-Flag:
-`flag{localstorage_should_not_store_sensitive_secrets}`

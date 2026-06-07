@@ -10,6 +10,7 @@ A hands-on client-side security lab designed to demonstrate the risks of storing
 * **Difficulty:** Medium
 * **Category:** Client-Side Security
 * **Created By:** **Adarsh Ramgirwar**
+* **Lab link:** https://secretctf.netlify.app/
 
 ---
 

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Secret Lab</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bg"></div>
+<div class="container">
+<h1>🔐Secret Lab</h1>
+<p class="sub">Created by <strong>Adarsh Ramgirwar (MrDe6u9)</strong></p>
+<div class="card">
+<h2>Scenario</h2>
+<p>Your task is to obtain the hidden flag. The application stores sensitive information on the client side.</p>
+
+<button id="loginBtn">Login as Demo User</button>
+<button id="profileBtn">Open Profile</button>
+<button id="resetBtn">Reset Lab</button>
+</div>
+
+<div class="card">
+<h2>Challenge</h2>
+<ul>
+<li>Find where sensitive data is stored.</li>
+<li>Retrieve the hidden flag.</li>
+<li>Do not modify the source files.</li>
+</ul>
+</div>
+
+<div id="profile" class="card hidden">
+<h2>Profile</h2>
+<p><b>User:</b> demo.user</p>
+<p><b>Role:</b> User</p>
+<p>Status: Logged in successfully.</p>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
